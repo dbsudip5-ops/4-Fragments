@@ -1,6 +1,7 @@
-Buttons Navigation is exactly the traditional (classic) way to work with fragments in Android.
-Option 1: Use ViewBinding (Recommended)
+Buttons Navigation 
+
 Step 2: Update MainActivity.kt
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding  // auto-generated from activity_main.xml
