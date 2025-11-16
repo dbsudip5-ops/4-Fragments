@@ -1,13 +1,5 @@
 Buttons Navigation is exactly the traditional (classic) way to work with fragments in Android.
 Option 1: Use ViewBinding (Recommended)
-Step 1: Enable ViewBinding in build.gradle (Module)
-android {
-    ...
-    viewBinding {
-        enabled = true
-    }
-}
-
 Step 2: Update MainActivity.kt
 class MainActivity : AppCompatActivity() {
 
